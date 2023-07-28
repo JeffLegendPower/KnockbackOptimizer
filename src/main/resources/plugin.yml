@@ -1,0 +1,13 @@
+name: KnockbackOptimizer
+version: '${project.version}'
+main: io.github.jefflegendpower.knockbackoptimizer.KnockbackOptimizer
+author: JeffLegendPower
+commands:
+  feedback:
+    description: Feedback command
+    usage: /<command> <0.00-10.00>
+    aliases: [fb]
+  pushupdate:
+    description: Push update command
+    usage: /<command>
+    aliases: [push]
